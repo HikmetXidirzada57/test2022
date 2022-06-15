@@ -1,0 +1,117 @@
+// Header Start /////////
+#header{
+    .header-top{
+        padding:10px;
+        background: #605e5e;
+        .feed-back{
+            ul{
+                li{
+                    margin: 0 8px;
+                    color: #fff;
+                    a{
+                        text-decoration: none;
+                        color: #fff;
+                    }
+                    i{
+                        font-size: 15px;
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+        .location-place{
+            ul{
+                li{
+                    margin-right: 15px;
+                 
+                    a{
+                        color: #ffff;
+                        text-decoration: none;
+                        font-weight: 400;
+                        font-size: 15px;
+                    }
+                }
+            }
+            .val{
+                select{
+                    background: transparent;
+                   border: none;
+                   color: #fff;
+                    option{
+                        color: #fff;  
+                        background: gold;  
+                     }
+                }
+             
+            }
+        }
+    }
+
+    #middle-nav{
+        background: #84c225;
+        padding: 15px 20px;
+        .selected-category{
+            position: relative;
+            ul{
+                position: relative;
+                width: 350px;
+                padding: 0;
+                height: 40px;
+                text-align: left;
+                margin-right: 10px;
+                .init{
+                    line-height: 42px;
+                    padding: 0 15px 0 15px;
+                    border: none;
+                    display: block;
+                }
+                i{
+                    position: absolute;
+                    right: 2%;
+                    top: 25%;
+                    font-size: 13px;
+                    font-weight: 300;
+                }
+                li{
+                    background: #fff;
+                    border-bottom: 1px solid #eee;
+                    padding: 15px 25px;
+                    font-size: 14px;
+                    width: 100%;
+                    // display: none;
+                    background: #f9f9f9;
+                    position: relative;
+                    transition: 0.4s ease-in-out;
+                    &:hover{
+                        background: #ffc107;
+                    }
+                }   
+            }
+            input{
+                border: none;
+                padding: 0 70px 0 10px;
+                height: 40px;
+                
+            }
+            .search{
+                display: flex;
+                align-items: center;
+                height: 40px;
+                position: absolute;
+                right: 0px;
+                padding:  0px 15px;
+                background: #fad400;
+            }
+        }
+     .site-header{
+       a{
+           text-decoration: none;
+           color: #fff;
+           font-size: 25px;
+           margin-right: 7px;
+           margin-bottom: 15px;
+       }  
+     }
+    }
+}
+// HEADER END ////////

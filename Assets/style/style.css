@@ -1,0 +1,128 @@
+#header .header-top {
+  padding: 10px;
+  background: #605e5e;
+}
+
+#header .header-top .feed-back ul li {
+  margin: 0 8px;
+  color: #fff;
+}
+
+#header .header-top .feed-back ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#header .header-top .feed-back ul li i {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+#header .header-top .location-place ul li {
+  margin-right: 15px;
+}
+
+#header .header-top .location-place ul li a {
+  color: #ffff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+#header .header-top .location-place .val select {
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+
+#header .header-top .location-place .val select option {
+  color: #fff;
+  background: gold;
+}
+
+#header #middle-nav {
+  background: #84c225;
+  padding: 15px 20px;
+}
+
+#header #middle-nav .selected-category {
+  position: relative;
+}
+
+#header #middle-nav .selected-category ul {
+  position: relative;
+  width: 350px;
+  padding: 0;
+  height: 40px;
+  text-align: left;
+  margin-right: 10px;
+}
+
+#header #middle-nav .selected-category ul .init {
+  line-height: 42px;
+  padding: 0 15px 0 15px;
+  border: none;
+  display: block;
+}
+
+#header #middle-nav .selected-category ul i {
+  position: absolute;
+  right: 2%;
+  top: 25%;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#header #middle-nav .selected-category ul li {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 15px 25px;
+  font-size: 14px;
+  width: 100%;
+  background: #f9f9f9;
+  position: relative;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+#header #middle-nav .selected-category ul li:hover {
+  background: #ffc107;
+}
+
+#header #middle-nav .selected-category input {
+  border: none;
+  padding: 0 70px 0 10px;
+  height: 40px;
+}
+
+#header #middle-nav .selected-category .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+  position: absolute;
+  right: 0px;
+  padding: 0px 15px;
+  background: #fad400;
+}
+
+#header #middle-nav .site-header a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  margin-right: 7px;
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+/*# sourceMappingURL=style.css.map */
